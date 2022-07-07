@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-image: url("../img/black.png");
+    background-position: center;
+    height: 100%;
+}
+.main-game {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genius {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.green {
+    width: 140px;
+    height: 140px;
+    background-color: green;
+    border-top-left-radius: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+ 
+.red {
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    border-top-right-radius: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+ 
+.yellow {
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+ 
+.blue {
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.start-buttom{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 15px solid black;
+    position: absolute;
+    z-index:1000;
+    
+}
+button:focus {outline:0;}
